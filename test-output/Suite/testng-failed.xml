@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.NA.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.NA.Test.TC_NA_UpdateResume_1_1">
+        <methods>
+          <include name="setUp"/>
+          <include name="Del_Up_Resume_DataFromProp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.NA.Test.TC_NA_UpdateResume_1_1 -->
+      <class name="com.NA.Test.TC_NA_EditProfile">
+        <methods>
+          <include name="Del_Up_Resume_HeadLine"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.NA.Test.TC_NA_EditProfile -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
