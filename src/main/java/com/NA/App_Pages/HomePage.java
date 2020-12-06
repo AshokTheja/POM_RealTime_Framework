@@ -1,4 +1,4 @@
-package com.NA.Page;
+package com.NA.App_Pages;
 
 import java.io.IOException;
 import java.util.List;
@@ -9,8 +9,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.NA.TestUtils.TestUtilities;
 import com.NA.Test_Base.Base_NA;
-import com.NA.testutils.TestUtilities;
 
 public class HomePage extends Base_NA {
 

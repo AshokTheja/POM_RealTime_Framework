@@ -15,7 +15,7 @@ import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.firefox.ProfilesIni;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.NA.testutils.TestUtilities;
+import com.NA.TestUtils.TestUtilities;
 
 public class Base_NA {
 	public static WebDriver driver;
@@ -24,7 +24,7 @@ public class Base_NA {
 
 	public Base_NA() throws IOException {
 
-		FileInputStream fis = new FileInputStream("./src/main/java/com/NA/qa/config/config.Properties");
+		FileInputStream fis = new FileInputStream("./src/main/java/com/NA/config/config.Properties");
 		prop = new Properties();
 		prop.load(fis);
 

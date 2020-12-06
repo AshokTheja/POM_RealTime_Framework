@@ -1,4 +1,4 @@
-package com.NA.Page;
+package com.NA.App_Pages;
 
 import java.io.IOException;
 import java.util.Set;
@@ -9,8 +9,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 
+import com.NA.TestUtils.TestUtilities;
 import com.NA.Test_Base.Base_NA;
-import com.NA.testutils.TestUtilities;
 
 public class LoginPage extends Base_NA {
 
@@ -20,7 +20,7 @@ public class LoginPage extends Base_NA {
 	@FindBy(xpath = "//input[@placeholder='Enter your active Email ID / Username']")
 	private static WebElement username;
 
-	@FindBy(xpath = "//input[@placeholder='Enter your password']")
+	@FindBy(xpath = "//input[@placeholder='Enterr your password']")
 	private static WebElement password;
 
 	@FindBy(xpath = "//button[text()='Login']")

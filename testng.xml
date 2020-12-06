@@ -4,6 +4,7 @@
 	<listeners>
 		<listener
 			class-name="com.NA.ExtentReportListener.ExtentReporterNG" />
+		<listener class-name="com.NA.TestUtils.MyTransformer" />
 	</listeners>
 	<test thread-count="5" name="Test">
 		<classes>

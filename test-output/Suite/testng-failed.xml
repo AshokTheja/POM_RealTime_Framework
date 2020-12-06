@@ -3,20 +3,21 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="com.NA.ExtentReportListener.ExtentReporterNG"/>
+    <listener class-name="com.NA.TestUtils.MyTransformer"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="com.NA.Test.TC_NA_UpdateResume_1_1">
         <methods>
+          <include name="Delete_Upload_Resume_From_xls"/>
           <include name="setUp"/>
-          <include name="Del_Up_Resume_DataFromProp"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.NA.Test.TC_NA_UpdateResume_1_1 -->
       <class name="com.NA.Test.TC_NA_EditProfile">
         <methods>
-          <include name="Del_Up_Resume_HeadLine"/>
           <include name="setUp"/>
+          <include name="Delete_Upload_ResumeHeadLine_ProfileSummary"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.NA.Test.TC_NA_EditProfile -->

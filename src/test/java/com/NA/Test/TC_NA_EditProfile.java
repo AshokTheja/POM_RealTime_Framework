@@ -8,11 +8,11 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.NA.Page.EditProfilePage;
-import com.NA.Page.HomePage;
-import com.NA.Page.LoginPage;
+import com.NA.App_Pages.EditProfilePage;
+import com.NA.App_Pages.HomePage;
+import com.NA.App_Pages.LoginPage;
+import com.NA.TestUtils.TestUtilities;
 import com.NA.Test_Base.Base_NA;
-import com.NA.testutils.TestUtilities;
 
 public class TC_NA_EditProfile extends Base_NA {
 
@@ -81,6 +81,7 @@ public class TC_NA_EditProfile extends Base_NA {
 			TestUtilities.takeScreenshot(driver, result.getName());
 		}
 		driver.quit();
+
 	}
 
 }

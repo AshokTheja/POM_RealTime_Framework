@@ -1,4 +1,4 @@
-package com.NA.testutils;
+package com.NA.TestUtils;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -17,8 +17,10 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.IRetryAnalyzer;
+import org.testng.ITestResult;
 
-public class TestUtilities {
+public class TestUtilities implements IRetryAnalyzer {
 
 	@SuppressWarnings({ "resource", "incomplete-switch", "rawtypes", "unused" })
 	public ArrayList<String> extractExcelcontentByColumnIndex(String status) {
@@ -61,8 +63,6 @@ public class TestUtilities {
 			}
 			Row rowNumberforStatus = sht.getRow(rowNum);
 			Cell columnValue = rowNumberforStatus.getCell(columnIndex);
-			// System.out.println(rowNum + "==========" + columnIndex + "=========" +
-			// cell_Value_Text);
 
 			String statusText = df.formatCellValue(columnValue);
 			if (statusText.toLowerCase().replaceAll("\\s", "")
@@ -136,4 +136,14 @@ public class TestUtilities {
 		Thread.sleep(millis);
 	}
 
+	int retryCount = 0;
+
+	public boolean retry(ITestResult result) {
+
+		if (retryCount < 1) {
+			retryCount += 1;
+			return true;
+		}
+		return false;
+	}
 }

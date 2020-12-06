@@ -1,4 +1,4 @@
-package com.NA.Page;
+package com.NA.App_Pages;
 
 import java.io.IOException;
 
@@ -8,8 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 
+import com.NA.TestUtils.TestUtilities;
 import com.NA.Test_Base.Base_NA;
-import com.NA.testutils.TestUtilities;
 
 public class EditProfilePage extends Base_NA {
 
