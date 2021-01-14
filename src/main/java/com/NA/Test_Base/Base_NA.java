@@ -17,8 +17,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.NA.TestUtils.TestUtilities;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class Base_NA {
-	
+
 	public static WebDriver driver;
 	public static Properties prop;
 	public static WebDriverWait wait;
@@ -37,7 +39,7 @@ public class Base_NA {
 		try {
 
 			if ((browser).equals("chrome")) {
-				System.setProperty("webdriver.chrome.driver", ".\\Drivers\\chromedriver.exe");
+				WebDriverManager.chromedriver().setup();
 				ChromeOptions options = new ChromeOptions();
 				options.addArguments("start-maximized");
 				options.addArguments("Disable-popup-blocking");
@@ -49,8 +51,7 @@ public class Base_NA {
 				driver = new ChromeDriver(options);
 
 			} else if ((browser).equals("firefox")) {
-				System.setProperty("webdriver.gecko.driver", ".\\Drivers\\geckodriver.exe");
-
+				WebDriverManager.firefoxdriver().setup();
 				// For getting specific Profile.
 				ProfilesIni profiles = new ProfilesIni();
 				FirefoxProfile fxProfile = profiles.getProfile("Automation New");

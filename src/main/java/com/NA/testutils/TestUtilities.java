@@ -32,6 +32,7 @@ public class TestUtilities implements IRetryAnalyzer {
 		try {
 
 			File f = new File("./src/main/java/com/NA/TestData/TestData_NA.xlsx");
+			// File f = new File("C:\\Users\\ashok\\Desktop\\Test Datas\\TestData_NA.xlsx");
 			FileInputStream fis = new FileInputStream(f);
 			XSSFWorkbook wbk = new XSSFWorkbook(fis);
 			XSSFSheet sht = wbk.getSheetAt(0);
