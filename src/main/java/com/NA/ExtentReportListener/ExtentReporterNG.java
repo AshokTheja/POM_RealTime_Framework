@@ -40,6 +40,7 @@ public class ExtentReporterNG implements IReporter {
 		extent.close();
 	}
 
+	@SuppressWarnings("unused")
 	private void buildTestNodes(IResultMap tests, LogStatus status) {
 		ExtentTest test;
 

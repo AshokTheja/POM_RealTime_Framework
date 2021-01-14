@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="77521" started-at="2021-01-14T18:57:10 IST" finished-at="2021-01-14T18:58:28 IST">
+  <suite name="Suite" duration-ms="82120" started-at="2021-01-14T20:16:22 IST" finished-at="2021-01-14T20:17:44 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="77521" started-at="2021-01-14T18:57:10 IST" finished-at="2021-01-14T18:58:28 IST">
+    <test name="Test" duration-ms="82120" started-at="2021-01-14T20:16:22 IST" finished-at="2021-01-14T20:17:44 IST">
       <class name="com.NA.Test.TC_NA_UpdateResume_1_1">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NA.Test.TC_NA_UpdateResume_1_1@6536e911]" name="setUp" is-config="true" duration-ms="1016" started-at="2021-01-14T18:57:10 IST" finished-at="2021-01-14T18:57:11 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.NA.Test.TC_NA_UpdateResume_1_1@4b4523f8]" name="setUp" is-config="true" duration-ms="505" started-at="2021-01-14T20:16:22 IST" finished-at="2021-01-14T20:16:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Delete_Upload_Resume_From_xls()[pri:0, instance:com.NA.Test.TC_NA_UpdateResume_1_1@6536e911]" name="Delete_Upload_Resume_From_xls" duration-ms="75605" started-at="2021-01-14T18:57:11 IST" finished-at="2021-01-14T18:58:27 IST">
+        <test-method status="PASS" signature="Delete_Upload_Resume_From_xls()[pri:0, instance:com.NA.Test.TC_NA_UpdateResume_1_1@4b4523f8]" name="Delete_Upload_Resume_From_xls" duration-ms="80971" started-at="2021-01-14T20:16:23 IST" finished-at="2021-01-14T20:17:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Delete_Upload_Resume_From_xls -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.NA.Test.TC_NA_UpdateResume_1_1@6536e911]" name="tearDown" is-config="true" duration-ms="842" started-at="2021-01-14T18:58:27 IST" finished-at="2021-01-14T18:58:28 IST">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.NA.Test.TC_NA_UpdateResume_1_1@4b4523f8]" name="tearDown" is-config="true" duration-ms="615" started-at="2021-01-14T20:17:44 IST" finished-at="2021-01-14T20:17:44 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Delete_Upload_Resume_From_xls status=SUCCESS method=TC_NA_UpdateResume_1_1.Delete_Upload_Resume_From_xls()[pri:0, instance:com.NA.Test.TC_NA_UpdateResume_1_1@6536e911] output={null}]]]>
+                <![CDATA[[TestResult name=Delete_Upload_Resume_From_xls status=SUCCESS method=TC_NA_UpdateResume_1_1.Delete_Upload_Resume_From_xls()[pri:0, instance:com.NA.Test.TC_NA_UpdateResume_1_1@4b4523f8] output={null}]]]>
               </value>
             </param>
           </params>

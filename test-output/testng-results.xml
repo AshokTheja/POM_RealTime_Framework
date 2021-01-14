@@ -1,131 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-14T15:07:37 IST" name="Default suite" finished-at="2021-01-14T15:07:37 IST" duration-ms="51">
+  <suite started-at="2021-01-14T20:08:11 IST" name="Suite" finished-at="2021-01-14T20:09:25 IST" duration-ms="74283">
     <groups>
     </groups>
-    <test started-at="2021-01-14T15:07:37 IST" name="Default test" finished-at="2021-01-14T15:07:37 IST" duration-ms="51">
+    <test started-at="2021-01-14T20:08:11 IST" name="Test" finished-at="2021-01-14T20:09:25 IST" duration-ms="74283">
       <class name="com.NA.Test.TC_NA_UpdateResume_1_1">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.NA.Test.TC_NA_UpdateResume_1_1@5552768b]" started-at="2021-01-14T15:07:37 IST" name="setUp" finished-at="2021-01-14T15:07:37 IST" duration-ms="5" status="FAIL">
-          <exception class="java.lang.Error">
-            <message>
-              <![CDATA[Unresolved compilation problems: 
-The import org.testng cannot be resolved
-The import org.testng cannot be resolved
-IRetryAnalyzer cannot be resolved to a type
-ITestResult cannot be resolved to a type
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problems: 
-The import org.testng cannot be resolved
-The import org.testng cannot be resolved
-IRetryAnalyzer cannot be resolved to a type
-ITestResult cannot be resolved to a type
-
-at com.NA.TestUtils.TestUtilities.<init>(TestUtilities.java:20)
-at com.NA.Test.TC_NA_UpdateResume_1_1.setUp(TC_NA_UpdateResume_1_1.java:30)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.NA.Test.TC_NA_UpdateResume_1_1@c333c60]" started-at="2021-01-14T20:08:11 IST" name="setUp" finished-at="2021-01-14T20:08:12 IST" duration-ms="484" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Delete_Upload_Resume_From_xls()[pri:0, instance:com.NA.Test.TC_NA_UpdateResume_1_1@5552768b]" started-at="2021-01-14T15:07:37 IST" name="Delete_Upload_Resume_From_xls" finished-at="2021-01-14T15:07:37 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Error">
-            <message>
-              <![CDATA[Unresolved compilation problems: 
-The import org.testng cannot be resolved
-The import org.testng cannot be resolved
-IRetryAnalyzer cannot be resolved to a type
-ITestResult cannot be resolved to a type
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problems: 
-The import org.testng cannot be resolved
-The import org.testng cannot be resolved
-IRetryAnalyzer cannot be resolved to a type
-ITestResult cannot be resolved to a type
-
-at com.NA.TestUtils.TestUtilities.<init>(TestUtilities.java:20)
-at com.NA.Test.TC_NA_UpdateResume_1_1.setUp(TC_NA_UpdateResume_1_1.java:30)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:683)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:510)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+        <test-method signature="Delete_Upload_Resume_From_xls()[pri:0, instance:com.NA.Test.TC_NA_UpdateResume_1_1@c333c60]" started-at="2021-01-14T20:08:12 IST" name="Delete_Upload_Resume_From_xls" finished-at="2021-01-14T20:09:25 IST" duration-ms="73131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Delete_Upload_Resume_From_xls -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.NA.Test.TC_NA_UpdateResume_1_1@5552768b]" started-at="2021-01-14T15:07:37 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1610617057817" status="SKIP">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.NA.Test.TC_NA_UpdateResume_1_1@c333c60]" started-at="2021-01-14T20:09:25 IST" name="tearDown" finished-at="2021-01-14T20:09:25 IST" duration-ms="641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Delete_Upload_Resume_From_xls status=SUCCESS method=TC_NA_UpdateResume_1_1.Delete_Upload_Resume_From_xls()[pri:0, instance:com.NA.Test.TC_NA_UpdateResume_1_1@c333c60] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.NA.Test.TC_NA_UpdateResume_1_1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

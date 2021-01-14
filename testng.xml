@@ -6,7 +6,7 @@
 			class-name="com.NA.ExtentReportListener.ExtentReporterNG" />
 		<listener class-name="com.NA.TestUtils.MyTransformer" />
 	</listeners>
-	<test thread-count="5" name="Test">
+	<test thread-count="5" name="Naukri Test">
 		<classes>
 			<class name="com.NA.Test.TC_NA_UpdateResume_1_1" />
 		</classes>
