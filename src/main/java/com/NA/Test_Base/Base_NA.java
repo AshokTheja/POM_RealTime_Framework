@@ -18,6 +18,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import com.NA.TestUtils.TestUtilities;
 
 public class Base_NA {
+	
 	public static WebDriver driver;
 	public static Properties prop;
 	public static WebDriverWait wait;

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Naukri.Test.TC_NA_EditProfile">
+      <class name="com.NA.Test.TC_NA_UpdateResume_1_1">
         <methods>
+          <include name="Delete_Upload_Resume_From_xls"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="Del_Up_Resume_HeadLine"/>
         </methods>
-      </class> <!-- com.Naukri.Test.TC_NA_EditProfile -->
+      </class> <!-- com.NA.Test.TC_NA_UpdateResume_1_1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

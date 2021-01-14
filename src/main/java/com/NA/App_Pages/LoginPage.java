@@ -20,7 +20,7 @@ public class LoginPage extends Base_NA {
 	@FindBy(xpath = "//input[@placeholder='Enter your active Email ID / Username']")
 	private static WebElement username;
 
-	@FindBy(xpath = "//input[@placeholder='Enterr your password']")
+	@FindBy(xpath = "//input[@placeholder='Enter your password']")
 	private static WebElement password;
 
 	@FindBy(xpath = "//button[text()='Login']")

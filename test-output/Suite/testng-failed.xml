@@ -14,13 +14,6 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.NA.Test.TC_NA_UpdateResume_1_1 -->
-      <class name="com.NA.Test.TC_NA_EditProfile">
-        <methods>
-          <include name="setUp"/>
-          <include name="Delete_Upload_ResumeHeadLine_ProfileSummary"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.NA.Test.TC_NA_EditProfile -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
