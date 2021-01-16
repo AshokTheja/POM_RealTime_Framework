@@ -18,6 +18,8 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
+
+
 public class ExtentReporterNG implements IReporter {
 	private ExtentReports extent;
 
@@ -40,7 +42,6 @@ public class ExtentReporterNG implements IReporter {
 		extent.close();
 	}
 
-	@SuppressWarnings("unused")
 	private void buildTestNodes(IResultMap tests, LogStatus status) {
 		ExtentTest test;
 

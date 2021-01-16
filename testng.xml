@@ -9,6 +9,7 @@
 	<test thread-count="5" name="Naukri Test">
 		<classes>
 			<class name="com.NA.Test.TC_NA_UpdateResume_1_1" />
+			<class name="com.NA.Test.TC_NA_EditProfile" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
